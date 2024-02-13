@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 4rem;
+  height: 20%;
+  float: center;
+}
+
+h1{
+  font-family: big shoulders display;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: lexend deca;
+  font-size: 14px;
+  line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 4rem;
+}
+
+button{
+  width: 8rem;
+  height: 3rem;
+  font-family: lexend deca;
+  color: hsl(0, 5%, 42%);
+  border-radius: 50px;
+  margin-top: 0.5rem;
+}
+
+.bt1 :hover{
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.bt2 :hover{
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.bt3 :hover{
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 25% 0 25%;
+  color: white;
+}
+
+.card1 {
+  
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card1, .card2, .card3{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2.5rem 3rem 2.5rem 2.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: black;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 375px){
+  .container {
+    display: block;
+    padding-top: 3rem;
+    margin-bottom: 43rem;
+  }
+
+  .card1 {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card3 {
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+@media(min-width: 750px){
+  .container{
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .card1 {
+    border-radius: 5px 0 0 5px;
+  }
+
+  .card3 {
+    border-radius: 0 5px 5px 0;
+  }
+  
+}
